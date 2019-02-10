@@ -5,4 +5,4 @@ Implementing logistic regression on different data sets. Creating sigmoid functi
 
 ###
 Cost Function (with Regularization):
-![alt text](https://raw.githubusercontent.com/graydonhope/Machine-Learning-Logistic-Regression/master/Cost Function.PNG)
+![alt text](https://raw.githubusercontent.com/graydonhope/Machine-Learning-Logistic-Regression/master/"Cost Function.PNG")
