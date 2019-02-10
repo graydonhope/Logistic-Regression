@@ -4,20 +4,11 @@ function [J, grad] = costFunctionReg(theta, X, y, lambda)
 %   theta as the parameter for regularized logistic regression and the
 %   gradient of the cost w.r.t. to the parameters. 
 
-% Initialize some useful values
 m = length(y); % number of training examples
 
 % You need to return the following variables correctly 
 J = 0;
 grad = zeros(size(theta));
-
-% ====================== YOUR CODE HERE ======================
-% Instructions: Compute the cost of a particular choice of theta.
-%               You should set J to the cost.
-%               Compute the partial derivatives and set grad to the partial
-%               derivatives of the cost w.r.t. each parameter in theta
-
-
 num_theta_rows = size(theta, 1);
 num_theta_columns = size(theta, 2);
 num_X_columns = size(X,2);
@@ -58,8 +49,5 @@ for k = 1:num_theta_rows
 endfor
 
 grad = gradient;
-
-
-% =============================================================
 
 end
