@@ -1,7 +1,8 @@
-## Machine Learning: Logistic Regression
+# Machine Learning Implementation: Logistic Regression
 
-###
 Implementing logistic regression on different data sets. Creating sigmoid function, cost function, and adding regularization to cost and gradient. 
+
+### Some theory about the project...
 
 ###
 Cost Function (with Regularization):
